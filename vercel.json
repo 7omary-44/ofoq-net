@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "functions": {
+    "api/send-topic-notification.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    { "src": "/api/send-topic-notification", "dest": "/api/send-topic-notification.js" }
+  ]
+}
